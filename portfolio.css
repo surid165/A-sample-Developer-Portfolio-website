@@ -25,6 +25,9 @@
     background-position: bottom right , left;
 
 }
+section{
+    margin-top: 131px;
+}
 /* Header and navigation styles */
 
 nav{
@@ -96,10 +99,10 @@ nav ul{
 
 }
 .section-title{
-    
+    text-align: center;
     font-weight: 700;
     font-size: 35px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 
 
 }
@@ -126,3 +129,34 @@ nav ul{
     font-size: 20px;
     color: #474747;
 }
+
+/* what i do */
+
+.what-i-do{
+    margin-top: 131px;
+    margin-top: 30px;
+}
+.skill{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill-title{
+    font-weight: 700;
+    font-size: 20px;
+    color: #181818;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.skill-descrip{
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+}
+
+/* resume styles */
