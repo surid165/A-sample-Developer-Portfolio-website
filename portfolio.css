@@ -17,6 +17,18 @@
     border-radius: 5px;
     background-color: #FD6E0A;
 }
+.btn-second{
+    color: #FD6E0A;
+    font-weight: 700;
+    font-size: 20px;
+    border: 2;
+    padding: 17px 35px;
+    height: 64px;
+    border-radius: 5px;
+    margin-left: 20px;
+    border-color: #FD6E0A;
+}
+
 
 .header{
     background: #FFF8F3;
