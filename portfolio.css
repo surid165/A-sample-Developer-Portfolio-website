@@ -20,7 +20,7 @@
 
 .header{
     background: #FFF8F3;
-    background-image: url('/images/header_bg.png') , url(/images/developer.png);
+    background-image: url('images/header_bg.png') , url(images/developer.png);
     background-repeat: no-repeat;
     background-position: bottom right , left;
 
@@ -68,12 +68,13 @@ nav ul{
 
 .banner-subtitle{
     color: #474747;
+    font-weight: 600;
     font-size: 45px;
     margin-bottom: 20px;
 
 }
 
-.banner-descrip{
+.banner-descrip {
     height: 60px;
     font-weight: 400;
     font-size: 18px;
@@ -83,9 +84,13 @@ nav ul{
 }
 /* main section */
 
-.main{
+main{
     max-width: 1140px;
     margin: 0 auto;
+    
+}
+section{
+    margin-top: 130px;
 }
 /* about section styles */
 
@@ -205,15 +210,15 @@ margin-bottom: 60px;
  }
  .contact .descrip{
     color: #757575;
-    margin-bottom: 
 
  }
-  .contact input, textarea{
+
+ .contact input[type="text"], input[type="email"], textarea{
     margin-bottom: 24px;
-    border: 0 ;
+    border: 0;
     width: 100%;
     padding: 18px 30px;
-  }
+}
 
   .contact a{
     text-decoration: none;
